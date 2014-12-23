@@ -12,7 +12,7 @@
 				</li>
 			{/if}
 		{/foreach}
-		<li> <a href="{$GLOBALS.site_url}/my-products/"><img src="{image}account/subscription_ico.png" alt=""/><br/>[[My Products]]</a></li>
+		<!-- <li> <a href="{$GLOBALS.site_url}/my-products/"><img src="{image}account/subscription_ico.png" alt=""/><br/>[[My Products]]</a></li> -->
 		{if $acl->isAllowed('save_job')}
 			<li> <a href="{$GLOBALS.site_url}/saved-jobs/"><img src="{image}account/saved_listings_ico.png" alt=""/><br/>[[Saved Jobs]]</a></li>
 		{elseif $acl->getPermissionParams('save_job') == "message"}
@@ -29,8 +29,8 @@
 			<li> <a href="{$GLOBALS.site_url}/saved-searches/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=save_searches', 300, '[[Saved searches]]'); return false;"><img src="{image}account/save_ico.png" alt=""/><br/>[[Saved Searches]]</a></li>
 		{/if}
 		<li> <a href="{$GLOBALS.site_url}/system/applications/view/"><img src="{image}account/applications_track_ico.png" alt=""/><br/>[[My Applications]]</a></li>
-		<li> <a href="{$GLOBALS.site_url}/user-notifications/"><br/><img src="{image}account/notifications_ico.png" alt=""/><br/>[[My Notifications]]</a></li>
-		<li> <a href="{$GLOBALS.site_url}/my-invoices/"><img src="{image}account/billing_hist_ico.png" alt=""/><br/>[[My Invoices]]</a></li>
+		<!-- <li> <a href="{$GLOBALS.site_url}/user-notifications/"><br/><img src="{image}account/notifications_ico.png" alt=""/><br/>[[My Notifications]]</a></li> -->
+		<!-- <li> <a href="{$GLOBALS.site_url}/my-invoices/"><img src="{image}account/billing_hist_ico.png" alt=""/><br/>[[My Invoices]]</a></li> -->
 		{if $acl->isAllowed('use_private_messages')}
 			<li> <a href="{$GLOBALS.site_url}/private-messages/inbox/"><img src="{image}account/message_ico.png" alt=""/><br/>[[Private messages]]</a>
 			<div class="pm-sub-menu">

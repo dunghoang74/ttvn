@@ -10,7 +10,7 @@
 				{/if}
 			</li>
 		{/if}
-		<li {if !$GLOBALS.current_user.logged_in}id="dropDown"{/if}>
+		<!-- <li {if !$GLOBALS.current_user.logged_in}id="dropDown"{/if}>
 			{if $GLOBALS.current_user.group.id == "JobSeeker"}
 				<a href="{$GLOBALS.site_url}/jobseeker-products/">[[Products]]</a>
 			{elseif $GLOBALS.current_user.group.id == "Employer"}
@@ -21,7 +21,7 @@
 			{else}
 				<a href="{$GLOBALS.site_url}/{$GLOBALS.current_user.group.id|lower}-products/">[[Products]]</a>
 			{/if}
-		</li>
+		</li> -->
 		{if $GLOBALS.current_user.logged_in}
 			{if ($acl->isAllowed('open_job_search_form')) || $GLOBALS.current_user.group.id == "JobSeeker"}
 				<li><a href="{$GLOBALS.site_url}/find-jobs/" >[[Find Jobs]]</a></li>

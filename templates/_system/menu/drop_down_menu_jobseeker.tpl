@@ -9,7 +9,7 @@
 			</li>
 		{/if}
 	{/foreach}
-    <li><a href="{$GLOBALS.site_url}/my-products/">[[My Products]]</a></li>
+    <!-- <li><a href="{$GLOBALS.site_url}/my-products/">[[My Products]]</a></li> -->
 	<li><a href="{$GLOBALS.site_url}/system/applications/view/">[[My Applications]]</a></li>
 	{if $acl->isAllowed('save_job')}
 		<li><a href="{$GLOBALS.site_url}/saved-jobs/">[[Saved Jobs]]</a></li>
@@ -26,11 +26,11 @@
 	{elseif $acl->getPermissionParams('save_searches') == "message"}
 		<li><a href="{$GLOBALS.site_url}/saved-searches/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=save_searches', 300, '[[Saved searches]]'); return false;">[[Saved Searches]]</a></li>
 	{/if}
-	<li><a href="{$GLOBALS.site_url}/user-notifications/">[[My Notifications]]</a></li>
-	<li><a href="{$GLOBALS.site_url}/my-invoices/">[[My Invoices]]</a></li>
-	{if $acl->isAllowed('use_private_messages')}
+	<!-- <li><a href="{$GLOBALS.site_url}/user-notifications/">[[My Notifications]]</a></li> -->
+	<!-- <li><a href="{$GLOBALS.site_url}/my-invoices/">[[My Invoices]]</a></li> -->
+	<!-- {if $acl->isAllowed('use_private_messages')}
 		<li><a href="{$GLOBALS.site_url}/private-messages/inbox/">[[Private messages]]</a></li>
 	{elseif $acl->getPermissionParams('use_private_messages') == "message"}
 		<li><a href="{$GLOBALS.site_url}/private-messages/inbox/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=use_private_messages', 300, '[[Private messages]]'); return false;">[[Private messages]]</a></li>
-	{/if}
+	{/if} -->
 </ul>

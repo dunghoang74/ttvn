@@ -168,14 +168,15 @@
 				<div>
 					<div class="css-tabs skin1" id="jTabs">
 						<ul>
-							<li><a href="#tabs-1">[[Jobs by Category]]</a></li>
-							<li><a href="#tabs-2">[[Jobs by City]]</a></li>
 							<li><a href="#tabs-3">[[Jobs by State]]</a></li>
+							<li><a href="#tabs-1">[[Jobs by Category]]</a></li>
+							<!-- <li><a href="#tabs-2">[[Jobs by City]]</a></li> -->							
 						</ul>
 						<div class="css-panes skin2">
-							<div id="tabs-1">{module name="classifieds" function="browse" browseUrl="/browse-by-category/" browse_template="browse_by_category.tpl"}</div>
-							<div id="tabs-2">{module name="classifieds" function="browse" browseUrl="/browse-by-city/" browse_template="browse_by_city.tpl"}</div>
 							<div id="tabs-3">{module name="classifieds" function="browse" browseUrl="/browse-by-state/" browse_template="browse_by_state.tpl"}</div>
+							<div id="tabs-1">{module name="classifieds" function="browse" browseUrl="/browse-by-category/" browse_template="browse_by_category.tpl"}</div>
+							<!-- <div id="tabs-2">{module name="classifieds" function="browse" browseUrl="/browse-by-city/" browse_template="browse_by_city.tpl"}</div> -->
+							
 						</div>
 					</div>
 				</div>

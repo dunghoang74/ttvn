@@ -70,7 +70,8 @@
 {/foreach}
 
 {if !empty($showPic)}
-	<fieldset>
+	<!-- ttvn -->
+	<!-- <fieldset>
 		<div class="inputName"> [[Add Pictures]] </div>
 		<div class="inputReq">&nbsp;</div>
 		<div class="inputField">
@@ -79,7 +80,7 @@
 			</div>
 			<div id="UploadPics" value="{$picValue}"></div>
 		</div>
-	</fieldset>
+	</fieldset> -->
 {/if}
 
 {if $expirationField}{$expirationField}{/if}
