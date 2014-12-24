@@ -188,9 +188,9 @@
 							{/if}
 						</li>
 						<li>&nbsp;<a href="?action_delete=1&amp;listings[{$listing.id}]=1" onclick="return confirm('[[Are you sure?]]')">[[Delete]]</a></li>
-						{if $listing.priceForUpgradeToFeatured && !$listing.featured}
+						<!-- {if $listing.priceForUpgradeToFeatured && !$listing.featured}
 							<li>&nbsp; | <a href="{$GLOBALS.site_url}/make-featured/?listing_id={$listing.id}">[[Upgrade to Featured]]</a></li>
-						{/if}
+						{/if} -->
 						{if $listing.priceForUpgradeToPriority && !$listing.priority}
 							<li>&nbsp; | <a href="{$GLOBALS.site_url}/make-priority/?listing_id={$listing.id}">[[Upgrade to Priority]]</a></li>
 						{/if}

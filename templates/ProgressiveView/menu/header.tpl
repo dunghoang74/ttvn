@@ -45,7 +45,7 @@
 								&nbsp;&nbsp;|&nbsp;&nbsp;
 							<a href="{$GLOBALS.site_url}/logout/"> [[Logout]]</a>
 							</span>
-						<br/>{module name="payment" function="show_shopping_cart"}
+						<!-- <br/>{module name="payment" function="show_shopping_cart"} -->
 					</div>
 				</div>
 				<div class="clr"></div>

@@ -185,20 +185,20 @@
 					<li class="panelViewDitailsIco"><a onclick="popUpWindow('{$GLOBALS.site_url}/saved-listings/?listing_type_id=job', 430, 'Saved jobs'); return false;" href="{$GLOBALS.site_url}/saved-listings"><span>[[View Saved Jobs]]</span></a></li>
 				{/if}
 			{/if}
-			<li class="tell-a-friend"><a href="{$GLOBALS.site_url}/tell-friends/?listing_id={$listing.id}" onclick="popUpWindow('{$GLOBALS.site_url}/tell-friends/?listing_id={$listing.id}', 650, '[[Tell a Friend]]'); return false;"><span>[[Tell a Friend]]</span></a></li>
-			{if $acl->isAllowed('flag_job')}
+			<!-- <li class="tell-a-friend"><a href="{$GLOBALS.site_url}/tell-friends/?listing_id={$listing.id}" onclick="popUpWindow('{$GLOBALS.site_url}/tell-friends/?listing_id={$listing.id}', 650, '[[Tell a Friend]]'); return false;"><span>[[Tell a Friend]]</span></a></li> -->
+			<!-- {if $acl->isAllowed('flag_job')}
 				<li class="flag-listing-ico"><a href="{$GLOBALS.site_url}/flag-listing/?listing_id={$listing.id}" onclick="popUpWindow('{$GLOBALS.site_url}/flag-listing/?listing_id={$listing.id}', 500, '[[Flag This Job]]'); return false;"><span>[[Flag This Job]]</span></a></li>
 			{elseif $acl->getPermissionParams('flag_job') == "message"}
 				<li class="flag-listing-ico"><a href="{$GLOBALS.site_url}/flag-listing/?listing_id={$listing.id}" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=flag_job', 440, '[[Flag This Job]]'); return false;"><span>[[Flag This Job]]</span></a></li>
-			{/if}
-			{if $GLOBALS.user_page_uri == "/my-job-details/"}
+			{/if} -->
+			<!-- {if $GLOBALS.user_page_uri == "/my-job-details/"}
 				<li class="print-listing-ico"><a target="_blank" href="{$GLOBALS.site_url}/print-my-job/?listing_id={$listing.id}"><span>[[Print This Ad]]</span></a></li>
 			{else}
 				<li class="print-listing-ico"><a target="_blank" href="{$GLOBALS.site_url}/print-listing/?listing_id={$listing.id}"><span>[[Print This Ad]]</span></a></li>
-			{/if}
-			{if $listing.latitude && $listing.longitude && (!$GLOBALS.settings.cookieLaw || $smarty.cookies.cookiePreferences != "System")}
+			{/if} -->
+			<!-- {if $listing.latitude && $listing.longitude && (!$GLOBALS.settings.cookieLaw || $smarty.cookies.cookiePreferences != "System")}
 				<li class="viewMapIco"><a href="{$GLOBALS.site_url}/display-job-map/?listing_id={$listing.id}&amp;searchId={$searchId}&amp;view=map" onclick="popUpWindowIframe('{$GLOBALS.site_url}/display-job-map/?listing_id={$listing.id}&amp;searchId={$searchId}&amp;view=map&amp;lightbox=1', 800, 715, '[[Map]]'); return false;"><span>[[Map View]]</span></a></li>
-			{/if}
+			{/if} -->
 		</ul>
 		<div class="clr"></div>
 	</div>

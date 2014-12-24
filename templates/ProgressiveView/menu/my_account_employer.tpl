@@ -28,7 +28,7 @@
 			{$myListingsBlock}
 		{/if}
 
-		{if $GLOBALS.current_user.subuser}
+		<!-- {if $GLOBALS.current_user.subuser}
 			{if $acl->isAllowed('subuser_manage_subscription', $GLOBALS.current_user.subuser.sid)}
 				<li> <a href="{$GLOBALS.site_url}/my-products/"><img src="{image}account/subscription_ico.png" alt=""/><br/>[[My Products]]</a></li>
 				<li> <a href="{$GLOBALS.site_url}/my-invoices/"><img src="{image}account/billing_hist_ico.png" alt=""/><br/>[[My Invoices]]</a></li>
@@ -36,7 +36,7 @@
 		{else}
 			<li> <a href="{$GLOBALS.site_url}/my-products/"><img src="{image}account/subscription_ico.png" alt=""/><br/>[[My Products]]</a></li>
 			<li> <a href="{$GLOBALS.site_url}/my-invoices/"><img src="{image}account/billing_hist_ico.png" alt=""/><br/>[[My Invoices]]</a></li>
-		{/if}
+		{/if} -->
 
 		{if $acl->isAllowed('save_resume')}
 			<li>
@@ -57,17 +57,17 @@
 			</li>
 		{/if}
 
-		{if $acl->isAllowed('use_resume_alerts')}
+		<!-- {if $acl->isAllowed('use_resume_alerts')}
 			<li> <a href="{$GLOBALS.site_url}/resume-alerts/"><img src="{image}account/resume_alerts_ico.png" alt=""/><br/>[[Resume Alerts]]</a></li>
 		{elseif $acl->getPermissionParams('use_resume_alerts') == "message"}
 			<li> <a href="{$GLOBALS.site_url}/resume-alerts/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=use_resume_alerts', 300, '[[Resume Alerts]]'); return false;"><img src="{image}account/resume_alerts_ico.png" alt=""/><br/>[[Resume Alerts]]</a></li>
-		{/if}
+		{/if} -->
 
-		{if $acl->isAllowed('save_searches')}
+		<!-- {if $acl->isAllowed('save_searches')}
 			<li> <a href="{$GLOBALS.site_url}/saved-searches/"><img src="{image}account/save_ico.png" alt=""/><br/>[[Saved Searches]]</a></li>
 		{elseif $acl->getPermissionParams('save_searches') == "message"}
 			<li> <a href="{$GLOBALS.site_url}/saved-searches/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=save_searches', 300, '[[Saved searches]]'); return false;"><img src="{image}account/save_ico.png" alt=""/><br/>[[Saved Searches]]</a></li>
-		{/if}
+		{/if} -->
 
 		{if $GLOBALS.current_user.subuser}
 			{if $acl->isAllowed('subuser_add_listings', $GLOBALS.current_user.subuser.sid) || $acl->isAllowed('subuser_manage_listings', $GLOBALS.current_user.subuser.sid)}
@@ -97,13 +97,13 @@
 			<li> <a href="{$GLOBALS.site_url}/sub-accounts/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=create_sub_accounts', 300, '[[Sub Accounts]]'); return false;"><img src="{image}account/subaccounts.png" alt=""/><br/>[[Sub Accounts]]</a></li>
 		{/if}
 
-		{if !$GLOBALS.current_user.subuser}
+		<!-- {if !$GLOBALS.current_user.subuser}
 			<li> <a href="{$GLOBALS.site_url}/user-notifications/"><img src="{image}account/notifications_ico.png" alt=""/><br/>[[My Notifications]]</a></li>
-		{/if}
+		{/if} -->
 
-		<li><a href="{$GLOBALS.site_url}/my-reports/"><img src="{image}account/icon-reports.png" alt=""/><br/>[[My Reports]]</a></li>
+		<!-- <li><a href="{$GLOBALS.site_url}/my-reports/"><img src="{image}account/icon-reports.png" alt=""/><br/>[[My Reports]]</a></li> -->
 
-		{if $acl->isAllowed('use_private_messages')}
+		<!-- {if $acl->isAllowed('use_private_messages')}
 			<li> <a href="{$GLOBALS.site_url}/private-messages/inbox/"><img src="{image}account/message_ico.png" alt=""/><br/>[[Private messages]]</a>
 				<div class="pm-sub-menu">
 					&#187; <a href="{$GLOBALS.site_url}/private-messages/inbox/">[[Inbox]] ({$GLOBALS.current_user.new_messages})</a>
@@ -117,7 +117,7 @@
 					&#187; <a href="{$GLOBALS.site_url}/private-messages/outbox/" onclick="popUpWindow('{$GLOBALS.site_url}/access-denied/?permission=use_private_messages', 300, '[[Outbox]]'); return false;">[[Outbox]]</a>
 				</div>
 			</li>
-		{/if}
+		{/if} -->
 	</ul>
 	<div id="adSpaceAccount">
 		<div id="my-account-stats">{module name="statistics" function="my_reports"}</div>
