@@ -21,7 +21,7 @@
   <pages>
     <page key="Frontend">
       <string key="City is not set">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Chưa nhập tỉnh </tr>
       </string>
       <string key="ZIP code is not set">
         <tr lang="vi">  </tr>
@@ -48,7 +48,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Applications">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ứng tuyển </tr>
       </string>
       <string key="Job Search">
         <tr lang="vi">  </tr>
@@ -189,13 +189,13 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Filter">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Lọc </tr>
       </string>
       <string key="unlimited">
         <tr lang="vi">  </tr>
       </string>
       <string key="Next">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Sau </tr>
       </string>
       <string key="Edit Listing">
         <tr lang="vi">  </tr>
@@ -231,7 +231,7 @@
         <tr lang="vi"> Trờ lại hồ sơ </tr>
       </string>
       <string key="You have not saved any searches yet.">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Chưa có </tr>
       </string>
       <string key="ID">
         <tr lang="vi">  </tr>
@@ -282,7 +282,7 @@
         <tr lang="vi"> Số tuyển dụng trên một trang </tr>
       </string>
       <string key="Previous">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> TrướcF </tr>
       </string>
       <string key="Save Your Search">
         <tr lang="vi">  </tr>
@@ -309,7 +309,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Save this Job">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Lưu việc này </tr>
       </string>
       <string key="View Saved Jobs">
         <tr lang="vi"> Xem việc đã lưu </tr>
@@ -339,7 +339,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Apply Now">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ứng tuyển </tr>
       </string>
       <string key="Location">
         <tr lang="vi"> Địa điểm </tr>
@@ -354,7 +354,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="View details">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Xem chi tiết </tr>
       </string>
       <string key="Recommend">
         <tr lang="vi">  </tr>
@@ -369,7 +369,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Company Info">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Công ty </tr>
       </string>
       <string key="You&apos;ve already voted">
         <tr lang="vi">  </tr>
@@ -468,16 +468,16 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Actions with Selected">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thao tác </tr>
       </string>
       <string key="Number of listings per page">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hiển thị </tr>
       </string>
       <string key="Deactivate">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Vô hiệu </tr>
       </string>
       <string key="Activate">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Kích hoạt </tr>
       </string>
       <string key="Your listing is successfully activated">
         <tr lang="vi">  </tr>
@@ -486,7 +486,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Sort by">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Săp xêp theo </tr>
       </string>
       <string key="Edit">
         <tr lang="vi"> Sữa </tr>
@@ -570,7 +570,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Application Tracking">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Theo dõi tuyển dụng </tr>
       </string>
       <string key="Resume Alert Name">
         <tr lang="vi">  </tr>
@@ -612,13 +612,13 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Company Profile">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Xem công ty này </tr>
       </string>
       <string key="here">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> đây </tr>
       </string>
       <string key="to add a new listing.">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> để tạo 1 tuyển dụng mới </tr>
       </string>
       <string key="Fields marked with an asterisk (">
         <tr lang="vi"> Những phần đánh dấu ( </tr>
@@ -672,7 +672,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Clone Job">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Sao chép </tr>
       </string>
       <string key="Company">
         <tr lang="vi"> Công ty </tr>
@@ -684,7 +684,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="My Postings">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tuyển dụng </tr>
       </string>
       <string key="Private messages">
         <tr lang="vi">  </tr>
@@ -768,10 +768,10 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Approve selected">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Duyệt </tr>
       </string>
       <string key="Reject selected">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hủy </tr>
       </string>
       <string key="Pending">
         <tr lang="vi"> Đang duyệt </tr>
@@ -783,7 +783,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Select Job Posting">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Chọn tuyển dụng </tr>
       </string>
       <string key="All Jobs">
         <tr lang="vi"> Tất cả việc </tr>
@@ -813,13 +813,13 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Search job title only">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Chỉ tìm theo tiêu đề </tr>
       </string>
       <string key="Edit notes">
         <tr lang="vi">  </tr>
       </string>
       <string key="Add notes">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ghi chú </tr>
       </string>
       <string key="Close">
         <tr lang="vi">  </tr>
@@ -918,7 +918,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Saved Resumes">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hồ sơ đã lưu </tr>
       </string>
       <string key="Screening Questionnaires">
         <tr lang="vi">  </tr>
@@ -954,7 +954,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Actions With Selected">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thao tác </tr>
       </string>
       <string key="Questionnaire Name">
         <tr lang="vi">  </tr>
@@ -993,7 +993,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Yes">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Có </tr>
       </string>
       <string key="Add Answer">
         <tr lang="vi">  </tr>
@@ -1053,7 +1053,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Posted">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày đăng </tr>
       </string>
       <string key="Text">
         <tr lang="vi">  </tr>
@@ -1086,7 +1086,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Expiration Date">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày hết hạn </tr>
       </string>
       <string key="Billing Information">
         <tr lang="vi">  </tr>
@@ -1170,7 +1170,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Phone">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Điện thoại </tr>
       </string>
       <string key="Fax">
         <tr lang="vi">  </tr>
@@ -1299,7 +1299,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Done with errors on the page">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> .. </tr>
       </string>
       <string key="Preview">
         <tr lang="vi"> Xem thử </tr>
@@ -1506,10 +1506,10 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Active">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Kích hoạt </tr>
       </string>
       <string key="You have no Applications now">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Không có ứng viên nào </tr>
       </string>
       <string key="Recently Viewed Jobs">
         <tr lang="vi">  </tr>
@@ -1845,16 +1845,16 @@
         <tr lang="vi"> Hình thức làm việc </tr>
       </string>
       <string key="Activation Date">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày đăng </tr>
       </string>
       <string key="Title">
         <tr lang="vi"> Tiêu đề </tr>
       </string>
       <string key="Job Views">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Đã xem </tr>
       </string>
       <string key="Job ID">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Mã tuyển dụng </tr>
       </string>
       <string key="Job Category">
         <tr lang="vi">  </tr>
@@ -1890,13 +1890,13 @@
         <tr lang="vi"> Kỹ năng </tr>
       </string>
       <string key="Resume">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hồ sơ </tr>
       </string>
       <string key="Don&apos;t send mailings">
         <tr lang="vi"> Đừng gửi email cho tôi </tr>
       </string>
       <string key="Number of Views">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Số lần xem </tr>
       </string>
       <string key="Occupations">
         <tr lang="vi"> Nghề nghiệp </tr>
@@ -4551,7 +4551,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Click">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Nhấn vào </tr>
       </string>
       <string key="Job has been saved">
         <tr lang="vi">  </tr>
@@ -4713,10 +4713,10 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Applicant">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ứng viên </tr>
       </string>
       <string key="Job">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tuyển dụng </tr>
       </string>
       <string key="Reject">
         <tr lang="vi">  </tr>
@@ -4743,19 +4743,19 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Quick Stats">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thống kê </tr>
       </string>
       <string key="Current live jobs">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tuyển dụng hiệu lực </tr>
       </string>
       <string key="Jobs posted this month">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tuyển dụng tháng này </tr>
       </string>
       <string key="Job views this month">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Số lần xem tháng này </tr>
       </string>
       <string key="Applications received this month">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hồ sơ đã nhận tháng này </tr>
       </string>
       <string key="General Stats">
         <tr lang="vi">  </tr>
@@ -4812,7 +4812,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="My Reports">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thống kê </tr>
       </string>
       <string key="Select appropriate encoding for your language  in case you have problems with import of certain symbols">
         <tr lang="vi">  </tr>
@@ -4905,7 +4905,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Job Seeker Tools">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Công cụ </tr>
       </string>
       <string key="Easy Job Posting">
         <tr lang="vi">  </tr>
@@ -5004,7 +5004,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="You can post unlimited number of jobs">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Số lượng tuyển dụng bạn có thể đăng là không giới hạn </tr>
       </string>
       <string key="Could not convert video file">
         <tr lang="vi">  </tr>
@@ -5234,13 +5234,13 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Actions with Selected">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thao tác </tr>
       </string>
       <string key="Activate">
         <tr lang="vi">  </tr>
       </string>
       <string key="Deactivate">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Vô hiệu </tr>
       </string>
       <string key="Are you sure you want to delete selected countries?">
         <tr lang="vi">  </tr>
@@ -5663,7 +5663,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Previous">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Trước </tr>
       </string>
       <string key="Are you sure you want to delete selected ZipCode(s)?">
         <tr lang="vi">  </tr>
@@ -6074,10 +6074,10 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Yes">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Có </tr>
       </string>
       <string key="No">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Không </tr>
       </string>
       <string key="Default">
         <tr lang="vi">  </tr>
@@ -6317,7 +6317,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Apply Now">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ứng tuyển </tr>
       </string>
       <string key="Tell a Friend">
         <tr lang="vi">  </tr>
