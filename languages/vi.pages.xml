@@ -54,7 +54,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Find">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tìm </tr>
       </string>
       <string key="Advanced search">
         <tr lang="vi"> Tìm kiếm nâng cao </tr>
@@ -138,10 +138,10 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Comments">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Nội dung </tr>
       </string>
       <string key="Submit">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Đồng ý </tr>
       </string>
       <string key="Please select the appropriate user group">
         <tr lang="vi"> Vui lòng chọn </tr>
@@ -249,7 +249,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Date">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày </tr>
       </string>
       <string key="Description">
         <tr lang="vi">  </tr>
@@ -279,7 +279,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Number of jobs per page">
-        <tr lang="vi"> Số tuyển dụng trên một trang </tr>
+        <tr lang="vi"> Hiện </tr>
       </string>
       <string key="Previous">
         <tr lang="vi"> TrướcF </tr>
@@ -300,7 +300,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="View job details">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Xem chi tiết </tr>
       </string>
       <string key="Please, Vote!">
         <tr lang="vi">  </tr>
@@ -492,7 +492,7 @@
         <tr lang="vi"> Sữa </tr>
       </string>
       <string key="Jobs by $companyName">
-        <tr lang="vi"> Việc của </tr>
+        <tr lang="vi"> Việc </tr>
       </string>
       <string key="View resume details">
         <tr lang="vi">  </tr>
@@ -558,7 +558,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Reload Image">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Thay đổi </tr>
       </string>
       <string key="Accept terms of use">
         <tr lang="vi">  </tr>
@@ -753,7 +753,7 @@
         <tr lang="vi"> Việc đã ứng tuyển </tr>
       </string>
       <string key="Company Search Results">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Kết quả </tr>
       </string>
       <string key="Mark as Read">
         <tr lang="vi">  </tr>
@@ -828,7 +828,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Search resume title only">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Chỉ tìm theo tên </tr>
       </string>
       <string key="Search by title">
         <tr lang="vi">  </tr>
@@ -1131,7 +1131,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Enter code from image">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Nhập mã số </tr>
       </string>
       <string key="Use the &quot;Control&quot; key to choose two or more options">
         <tr lang="vi">  </tr>
@@ -1185,7 +1185,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="No of jobs">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tuyển dụng </tr>
       </string>
       <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
         <tr lang="vi">  </tr>
@@ -1293,7 +1293,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Companies">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> #</tr>
       </string>
       <string key="Failed to read XML from url">
         <tr lang="vi">  </tr>
@@ -1524,7 +1524,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="List View">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Danh sách </tr>
       </string>
       <string key="You&apos;ve reached the limit of number of pictures allowed by your product">
         <tr lang="vi">  </tr>
@@ -4005,7 +4005,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Posted Within">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày đăng </tr>
       </string>
       <string key="Last 30 days">
         <tr lang="vi">  </tr>
@@ -4293,7 +4293,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Number of companies per page">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Hiển thị </tr>
       </string>
       <string key="Your account is not approved">
         <tr lang="vi">  </tr>
@@ -4632,7 +4632,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Results:">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Kết quả </tr>
       </string>
       <string key="Add job alert">
         <tr lang="vi">  </tr>
@@ -4902,7 +4902,7 @@
         <tr lang="vi"> Tìm nhanh </tr>
       </string>
       <string key="Order by">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Theo </tr>
       </string>
       <string key="Job Seeker Tools">
         <tr lang="vi"> Công cụ </tr>
@@ -5013,7 +5013,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Show Brief">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Tóm tắt </tr>
       </string>
       <string key="Whole Period">
         <tr lang="vi">  </tr>
@@ -6002,7 +6002,7 @@
         <tr lang="vi">  </tr>
       </string>
       <string key="Date">
-        <tr lang="vi">  </tr>
+        <tr lang="vi"> Ngày </tr>
       </string>
       <string key="Payments">
         <tr lang="vi">  </tr>
