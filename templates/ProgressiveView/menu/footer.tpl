@@ -62,7 +62,7 @@
 				</li>
 			{/if}
 		</ul>
-		<div id="copy">&copy; 2008-{$smarty.now|date_format:"%Y"} [[Powered by]] <a target="_blank" href="http://www.smartjobboard.com" title="Job Board Software, Script">SmartJobBoard Job Board Software</a></div>
+		<div id="copy">&copy;</div>
 	</div>
 	<div id="footer-bottom"></div>
 </div>

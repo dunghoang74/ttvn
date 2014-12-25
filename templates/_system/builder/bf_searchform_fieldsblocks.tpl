@@ -11,7 +11,7 @@
 		<div class="inputName">[[Posted Within]]</div>
 		<div class="inputField">{search property=PostedWithin template="list.date.tpl"}</div>
 	{elseif $theField.type eq "location"}
-		{search property=$theField.id fields=$theField.fields}
+		<!-- {search property=$theField.id fields=$theField.fields} -->
 	{else}
 		<div class="inputName">
 			{if $theField.id eq "ZipCode"}

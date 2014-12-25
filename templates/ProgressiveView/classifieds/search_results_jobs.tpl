@@ -134,7 +134,7 @@
 				<div id="googleMap-links">
 					<a href="{$GLOBALS.site_url}{if $url == '/search-results-jobs/'}{$url}?searchId={$searchId}&amp;action=search&amp;{else}{$url}?{/if}page=1&amp;view=list&amp;show_brief_or_detailed=brief" id="showBriefOrDetailed" {if $view == 'list' && $show_brief_or_detailed == 'brief'}onclick="return false;" class="listLink-active"{/if}>[[Show Brief]]</a> &nbsp;
 					<a href="{$GLOBALS.site_url}{if $url == '/search-results-jobs/'}{$url}?searchId={$searchId}&amp;action=search&amp;{else}{$url}?{/if}page=1&amp;view=list&amp;show_brief_or_detailed=detailed" id="listView-icon" {if $view == 'list' && $show_brief_or_detailed == 'detailed'}onclick="return false;" class="listLink-active"{/if}>[[List View]]</a> &nbsp;
-					<a href="{$GLOBALS.site_url}{if $url == '/search-results-jobs/'}{$url}?searchId={$searchId}&amp;action=search&amp;{else}{$url}?{/if}page=1&amp;view=map" id="mapView-icon" {if $view == 'map'}onclick="return false;" class="listLink-active"{/if}>[[Map View]]</a>
+					<!-- <a href="{$GLOBALS.site_url}{if $url == '/search-results-jobs/'}{$url}?searchId={$searchId}&amp;action=search&amp;{else}{$url}?{/if}page=1&amp;view=map" id="mapView-icon" {if $view == 'map'}onclick="return false;" class="listLink-active"{/if}>[[Map View]]</a> -->
 				</div>
 				<div class="clr"></div>
 			{/if}
